@@ -1,0 +1,22 @@
+{
+  "name": "auto-sign",
+  "version": "1.0.0",
+  "description": "自动定时向 GitHub 提交 commit",
+  "main": "auto-commit.js",
+  "scripts": {
+    "start": "node auto-commit.js",
+    "schedule": "node schedule.js"
+  },
+  "keywords": [
+    "github",
+    "auto-commit",
+    "cron",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-cron": "^3.0.3"
+  }
+}
+

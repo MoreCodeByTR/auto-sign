@@ -1,0 +1,6 @@
+{
+  "repoPath": "/path/to/your/github/repo",
+  "commitFile": "auto-sign.txt",
+  "branch": "main"
+}
+

@@ -5,9 +5,9 @@
 # ===================================
 
 # 配置项
-REPO_PATH="${REPO_PATH:-/path/to/your/repo}"  # Git 仓库路径
-COMMIT_FILE="${COMMIT_FILE:-auto-sign.txt}"   # 要修改的文件名
-BRANCH="${BRANCH:-main}"                       # 分支名
+REPO_PATH="/Users/tianrui/github/auto-sign"  # Git 仓库路径
+COMMIT_FILE="auto-sign.txt"   # 要修改的文件名
+BRANCH="master"                       # 分支名
 
 # 颜色输出
 RED='\033[0;31m'

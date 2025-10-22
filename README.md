@@ -26,16 +26,16 @@ nano auto-commit.sh
 
 修改以下配置：
 ```bash
-REPO_PATH="/path/to/your/repo"  # 你的 Git 仓库路径
+REPO_PATH="/path/to/your/repo"  # 你的 Git 仓库路径, 本地路径
 COMMIT_FILE="auto-sign.txt"     # 要修改的文件名
-BRANCH="main"                    # 分支名
+BRANCH="master"                    # 分支名
 ```
 
 或者通过环境变量设置：
 ```bash
 export REPO_PATH="/path/to/your/repo"
 export COMMIT_FILE="auto-sign.txt"
-export BRANCH="main"
+export BRANCH="master"
 ```
 
 #### 2. 手动测试

@@ -5,7 +5,7 @@
 # ===================================
 
 # 配置项
-REPO_PATH="/Users/tianrui/github/auto-sign"  # Git 仓库路径
+REPO_PATH="/usr/local/github/auto-sign"  # Git 仓库路径
 COMMIT_FILE="auto-sign.txt"   # 要修改的文件名
 BRANCH="master"                       # 分支名
 
